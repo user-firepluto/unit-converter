@@ -1,8 +1,5 @@
 #!/bin/bash
-chmod +x main.py
-chmod +x mass.py
-chmod +x unit-conversor
-sudo mkdir /usr/local/bin/unit
-sudo cp unit-conversor /usr/local/bin/unit
-sudo cp main.py /usr/local/bin/unit
-sudo cp mass.py /usr/local/bin/unit
+chmod +x unit
+chmod +x calc.py
+sudo cp unit /usr/local/bin/
+sudo cp calc.py /usr/local/bin/
