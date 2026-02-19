@@ -1,2 +1,2 @@
 #!/bin/bash
-/home/$USER/.miniprojects/unit-conversor/main.py
+/usr/local/bin/unit/main.py
