@@ -2,7 +2,7 @@
 #main.py
 
 import os
-from mass import mass
+import calc
 
 def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -16,7 +16,7 @@ while c == 'y':
 
     if conv == 'mass':
         clear()
-        mass()
+        calc.mass()
 
     if conv == 'help':
         clear()
